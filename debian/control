@@ -1,0 +1,12 @@
+Source: ros-kinetic-world-canvas-utils
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-world-canvas-msgs
+Homepage: http://ros.org/wiki/world_canvas_utils
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-world-canvas-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-world-canvas-msgs
+Description: C++/Python utilities library for the world canvas framework.
