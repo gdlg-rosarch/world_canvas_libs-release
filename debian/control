@@ -1,0 +1,12 @@
+Source: ros-kinetic-world-canvas-client-cpp
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-unique-id, ros-kinetic-uuid-msgs, ros-kinetic-visualization-msgs, ros-kinetic-world-canvas-msgs
+Homepage: http://ros.org/wiki/world_canvas_client_cpp
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-world-canvas-client-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roscpp, ros-kinetic-unique-id, ros-kinetic-uuid-msgs, ros-kinetic-visualization-msgs, ros-kinetic-world-canvas-msgs
+Description: C++ client library to access semantic maps within the world canvas framework.
