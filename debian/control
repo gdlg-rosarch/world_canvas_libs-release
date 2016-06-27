@@ -1,0 +1,12 @@
+Source: ros-kinetic-world-canvas-client-examples
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-unique-id, ros-kinetic-uuid-msgs, ros-kinetic-world-canvas-client-cpp, ros-kinetic-world-canvas-msgs, ros-kinetic-yocs-msgs
+Homepage: http://ros.org/wiki/world_canvas_client_examples
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-world-canvas-client-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-unique-id, ros-kinetic-uuid-msgs, ros-kinetic-world-canvas-client-cpp, ros-kinetic-world-canvas-client-py, ros-kinetic-world-canvas-msgs, ros-kinetic-yocs-msgs
+Description: Examples showing how to use C++ and Python client libraries to access semantic maps within the world canvas framework.
